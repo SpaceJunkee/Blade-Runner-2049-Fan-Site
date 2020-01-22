@@ -64,8 +64,12 @@ body{
 }
 
 #arrow:hover{
-    transform: scale(1.1);
+    transform: scale(1.15);
     cursor: pointer;
+}
+
+#arrow:active{
+    transform: rotate(10deg);
 }
 
 .unicorn{
