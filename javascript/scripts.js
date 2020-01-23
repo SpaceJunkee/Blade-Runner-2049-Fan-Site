@@ -5,14 +5,16 @@ var flexImages3 = document.getElementById("flexImages3");
 
 arrowJump.addEventListener('click', jumpToPosition);
 
+//Jump to position on page
 function jumpToPosition(){
     flexImages1.scrollIntoView({behavior: "smooth"});
 }
 
-flexImages1.addEventListener('click', modalFade)
-flexImages2.addEventListener('click', modalFade)
-flexImages3.addEventListener('click', modalFade)
+flexImages1.addEventListener('click', modalFade);
+flexImages2.addEventListener('click', modalFade);
+flexImages3.addEventListener('click', modalFade);
 
+//fade in modal depending on which image is clicked
 function modalFade(event){
     if(event.target === flexImages1){
         $('#fadeDelay1').modal({

@@ -32,9 +32,8 @@ body::-webkit-scrollbar{
 }
 
 
-
 .wallaceHome{
-    margin-right: 955px;
+    margin-right: 715px;
 }
 
 
@@ -80,19 +79,23 @@ body{
 .flex-container{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 65px;
+    margin-top: 150px;
     justify-content: center;
+}
+
+.flex-container p{
+    font-size: 13px;
+    text-align: center;
 }
 
 .flex-container div{
     background:transparent;
     width: 340px;
-    height: 325px;
+    height: 250px;
     margin-left: 80px;
     margin-right: 80px;
     margin-bottom: 100px;
-    text-align: center;
-    line-height: 75px;
+    line-height: 34px;
     font-size: 30px;
     border: 1.5px solid grey;
     overflow: hidden;
@@ -104,19 +107,54 @@ body{
 
 .flex-container div img{
     max-width: 100%;
-    transition: all .6s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .flex-container div:hover img{
     transform: scale(1.05);
+    cursor: pointer;
 }
-
 
 
 p{
     color: #c52026;
 }
 
+#fadeDelay1{
+    background-color: #191919;
+    text-align: center;
+}
+
+
+#fadeDelay2{
+    background-color: #191919;
+    text-align: center;
+}
+
+#fadeDelay3{
+    background-color: #191919;
+    text-align: center;
+}
+
+#fadeDelay1 img{
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+}
+
+#fadeDelay2 img{
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+}
+
+#fadeDelay3 img{
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+}
+
+footer{
+    background: transparent;
+    color: #c52026;
+    font-size: 10px;
+    margin: 30% 40% 0 40%;
+    text-align: center;
+}
 
 @keyframes fadein {
     from { opacity: 0; }
