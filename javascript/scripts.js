@@ -7,7 +7,8 @@ arrowJump.addEventListener('click', jumpToPosition);
 
 //Jump to position on page
 function jumpToPosition(){
-    flexImages1.scrollIntoView({behavior: "smooth"});
+    flexImages1.scrollIntoView({behavior: "smooth", block: 'center',
+            inline: 'center'});
 }
 
 flexImages1.addEventListener('click', modalFade);
