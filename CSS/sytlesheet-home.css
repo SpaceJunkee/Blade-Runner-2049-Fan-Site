@@ -44,6 +44,7 @@ body::-webkit-scrollbar{
     background-color: #191919;
     animation: hvr-icon-pop .3s;
     
+    
 }
 
 
@@ -62,6 +63,10 @@ body::-webkit-scrollbar{
 
 header{
     text-align: center;
+}
+
+header: hover{
+    transform: skewX(1deg);
 }
 
 
@@ -91,7 +96,7 @@ body{
 .flex-container{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 240px;
+    margin-top: 270px;
     justify-content: center;
 }
 
@@ -168,6 +173,57 @@ footer{
     margin-top: 100px;
 }
 
+.sideBar {
+    height: 70%;
+    width: 0;
+    position: fixed;
+    top: 15%;
+    right: 0;
+    background-color: #c52026;
+    transition: .5s;
+    padding-top: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
+}
+
+.sideBar a {
+    padding: 8px 8px 8px 8px;
+    font-size: 30px;
+    color: #191919;
+    display: block;
+    transition: 0.3s;   
+    text-align: center;
+}
+
+.sideBar a:hover {
+    color: #f1f1f1;
+}
+
+
+#sideBarContainer{
+    position: fixed;
+    right:-95px;
+    top: 20%;
+    opacity: 0.5;
+}
+
+#sideBarContainer:hover{
+    right:-80px;
+    animation: fadein 0.6s;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.sideBarIcon:hover{
+    transform: scale(1.2);
+    padding: 0;
+}
+
+#closeButton:hover{
+    cursor: pointer;
+}
+
+
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -180,5 +236,4 @@ footer{
     transform: scale(1.1);
   }
 }
-
 
