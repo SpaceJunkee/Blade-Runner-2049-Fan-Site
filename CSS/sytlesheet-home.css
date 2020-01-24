@@ -37,7 +37,7 @@ body::-webkit-scrollbar{
 }
 
 #wallaceHome a{
-    padding:6px 0 0px 16px;
+    padding:10px 0 0 8px;
 }
 
 #wallaceHome a:hover{
@@ -70,9 +70,8 @@ body{
 }
 
 #arrow{
-    float: right;
-    margin-right: .5%;
-    margin-top: .5%;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 #arrow:hover{
@@ -181,3 +180,5 @@ footer{
     transform: scale(1.1);
   }
 }
+
+
