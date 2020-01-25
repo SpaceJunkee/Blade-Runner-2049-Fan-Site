@@ -214,6 +214,15 @@ footer{
     cursor: pointer;
 }
 
+.sideBarIcon{
+}
+
+.sideBarIcon:active{
+     position: relative;
+     top: 3px;
+}
+
+
 .sideBarIcon:hover{
     transform: scale(1.2);
     padding: 0;
@@ -222,7 +231,6 @@ footer{
 #closeButton:hover{
     cursor: pointer;
 }
-
 
 
 @keyframes fadein {
@@ -236,4 +244,6 @@ footer{
     transform: scale(1.1);
   }
 }
+
+
 

@@ -51,5 +51,3 @@ function closeSideBar() {
   document.getElementById("mySideBar").style.width = "0";
 }
 
-
-
