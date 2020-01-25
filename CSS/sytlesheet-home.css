@@ -5,7 +5,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    color: black;
+    color: #c52026;
 }
 
 body::-webkit-scrollbar{
@@ -133,9 +133,6 @@ body{
 }
 
 
-p{
-    color: #c52026;
-}
 
 #fadeDelay1{
     background-color: #191919;
@@ -146,6 +143,10 @@ p{
 #fadeDelay2{
     background-color: #191919;
     text-align: center;
+}
+
+.modalHeader{
+    color: #f1f1f1;
 }
 
 #fadeDelay3{
@@ -214,8 +215,6 @@ footer{
     cursor: pointer;
 }
 
-.sideBarIcon{
-}
 
 .sideBarIcon:active{
      position: relative;
