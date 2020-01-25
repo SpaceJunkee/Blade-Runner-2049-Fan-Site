@@ -119,7 +119,7 @@ body{
 }
 
 .flex-container div:hover{
-     border: 1.5px solid white;
+     border: 2px solid #f1f1f1;
 }
 
 .flex-container div img{
@@ -244,6 +244,5 @@ footer{
     transform: scale(1.1);
   }
 }
-
 
 
