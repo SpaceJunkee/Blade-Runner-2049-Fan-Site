@@ -8,10 +8,17 @@
     color: #c52026;
 }
 
+body{
+    background-color: #191919;
+}
+
+/*Remove browser scroll bar*/
 body::-webkit-scrollbar{
     display: none;
 }
 
+
+/*Nav bar styling*/
 .homeNavBar{
     position: sticky;
     top:0;
@@ -41,10 +48,10 @@ body::-webkit-scrollbar{
 }
 
 #wallaceHome a:hover{
-    background-color: #191919;
+    background: transparent;
     animation: hvr-icon-pop .3s;
-    
-    
+    filter: invert(1);
+     
 }
 
 
@@ -58,20 +65,8 @@ body::-webkit-scrollbar{
 
 
 .homeNavBar li a:hover{
-    background-color: #4b2526;
-}
 
-header{
-    text-align: center;
-}
-
-header: hover{
-    transform: skewX(1deg);
-}
-
-
-body{
-    background-color: #191919;
+    color: #f1f1f1;
 }
 
 #arrow{
@@ -82,22 +77,43 @@ body{
 #arrow:hover{
     transform: scale(1.15);
     cursor: pointer;
+    filter: invert(1);
 }
 
 #arrow:active{
     transform: rotate(10deg);
 }
 
+
+/*homePage header styling*/
+header{
+    text-align: center;
+}
+
+header h1{
+    font-size:5em;
+    float: left;
+    padding: 30px;
+}
+
+header: hover{
+    transform: skewX(1deg);
+}
+
+
+
+/*Oragami gif*/
 .unicorn{
     text-align: center;
     
 }
 
+/* Homepage flex images styling*/
 .flex-container{
     display: flex;
     flex-wrap: wrap;
     margin-top: 270px;
-    justify-content: center;
+    justify-content:center;
 }
 
 .flex-container p{
@@ -132,8 +148,7 @@ body{
     cursor: pointer;
 }
 
-
-
+/*Modal Styling*/
 #fadeDelay1{
     background-color: #191919;
     text-align: center;
@@ -155,17 +170,19 @@ body{
 }
 
 #fadeDelay1 img{
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+    box-shadow: 0px 0px 5px 1.5px rgba(0,0,0,1);
 }
 
 #fadeDelay2 img{
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+    box-shadow: 0px 0px 5px 1.5px rgba(0,0,0,1);
 }
 
 #fadeDelay3 img{
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+    box-shadow: 0px 0px 5px 1.5px rgba(0,0,0,1);
 }
 
+
+/*Footer styling*/
 footer{
     background: transparent;
     color: #c52026;
@@ -174,6 +191,7 @@ footer{
     margin-top: 100px;
 }
 
+/*Side bar styling*/
 .sideBar {
     height: 70%;
     width: 0;
@@ -231,7 +249,29 @@ footer{
     cursor: pointer;
 }
 
+/*NewsPage content style*/
+.newsPageImage{
+    width:600px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    line-height: 1px;
+    font-size: 30px;
+    border: 1.5px solid grey;
+    overflow: hidden;
+}
 
+
+
+strong{
+    font-size: .8em;
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+
+/*Animations*/
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
