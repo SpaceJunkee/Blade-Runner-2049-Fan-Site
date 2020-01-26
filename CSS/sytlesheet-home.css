@@ -39,21 +39,6 @@ body::-webkit-scrollbar{
 }
 
 
-#wallaceHome{
-    margin-right: auto;
-}
-
-#wallaceHome a{
-    padding:10px 0 0 8px;
-}
-
-#wallaceHome a:hover{
-    background: transparent;
-    animation: hvr-icon-pop .3s;
-    filter: invert(1);
-     
-}
-
 
 .homeNavBar li a{
     display: block;
@@ -67,6 +52,22 @@ body::-webkit-scrollbar{
 .homeNavBar li a:hover{
 
     color: #f1f1f1;
+}
+
+
+#wallaceHome{
+    margin-right: auto;
+}
+
+#wallaceHome a{
+    padding:10px 0 0 8px;
+}
+
+#wallaceHome a:hover{
+    background: transparent;
+    animation: hvr-icon-pop .3s;
+    filter: invert(1);
+     
 }
 
 #arrow{
@@ -95,11 +96,6 @@ header h1{
     float: left;
     padding: 30px;
 }
-
-header: hover{
-    transform: skewX(1deg);
-}
-
 
 
 /*Oragami gif*/
@@ -135,7 +131,7 @@ header: hover{
 }
 
 .flex-container div:hover{
-     border: 2px solid #f1f1f1;
+     border: 2px solid #c52026;
 }
 
 .flex-container div img{
@@ -251,23 +247,39 @@ footer{
 
 /*NewsPage content style*/
 .newsPageImage{
-    width:600px;
-    margin-left: 80px;
-    margin-right: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    width:1200px;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 100px;
-    margin-top: 200px;
-    line-height: 1px;
+    margin-top: 300px;
     font-size: 30px;
     border: 1.5px solid grey;
+    justify-content: flex-start;
     overflow: hidden;
+    transition-duration: .8s;
+}
+
+.newsPageImage:hover{
+    border-color: #c52026;
+    border-width: 2px;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all .4s ease-in-out;
+}
+
+.newsPageImage img{
+    float: left;
+    margin-right: 30px;
 }
 
 
-
-strong{
-    font-size: .8em;
+.newsPageImage strong{
+    font-size: 1.3em;
     color: #f1f1f1;
     text-decoration: underline;
+    font-weight:normal;
 }
 
 
