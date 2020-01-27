@@ -1,11 +1,12 @@
-var arrowJump = document.getElementById("arrow");
-
+var arrowJump = document.getElementById("arrowDown");
 
 arrowJump.addEventListener('click', jumpToPosition);
 
+var middlePageJump = document.getElementById("middlePageImage");
+
 //Jump to position on page
 function jumpToPosition(){
-    //.scrollIntoView({behavior: "smooth", block: 'center',inline: 'center'});
+    middlePageJump.scrollIntoView({behavior: "smooth", block: 'center',inline: 'center'});
 }
 
 

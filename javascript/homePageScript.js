@@ -1,4 +1,4 @@
-var arrowJump = document.getElementById("arrow");
+var arrowJump = document.getElementById("arrowDown");
 var flexImages1 = document.getElementById("flexImages1");
 var flexImages2 = document.getElementById("flexImages2");
 var flexImages3 = document.getElementById("flexImages3");

@@ -71,18 +71,20 @@ body::-webkit-scrollbar{
      
 }
 
-#arrow{
+/*Up and down arrows*/
+
+#arrowDown{
     padding-top: 20px;
     padding-left: 10px;
 }
 
-#arrow:hover{
+#arrowDown:hover{
     transform: scale(1.15);
     cursor: pointer;
     filter: invert(1);
 }
 
-#arrow:active{
+#arrowDown:active{
     transform: rotate(10deg);
 }
 
@@ -224,7 +226,7 @@ footer{
     top: 20%;
     opacity: 0.5;
     transition-duration: .8s;
-    z-index: 1;
+    
 }
 
 #sideBarContainer:hover{
@@ -255,6 +257,10 @@ footer{
 }
 
 /*NewsPage content style*/
+
+.newsPageHeader h1{
+    margin-bottom: 50px;
+}
 .newsPageImage{
     display: flex;
     flex-wrap: wrap;
@@ -262,7 +268,7 @@ footer{
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 100px;
-    margin-top: 300px;
+    margin-top: 120px;
     font-size: 30px;
     border: 1.5px solid grey;
     justify-content: flex-start;
