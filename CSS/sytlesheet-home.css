@@ -129,10 +129,12 @@ header h1{
     font-size: 30px;
     border: 1.5px solid grey;
     overflow: hidden;
+    transition-duration: .8s;
 }
 
 .flex-container div:hover{
-     border: 2px solid #c52026;
+    border: 2px solid #c52026;
+    transition: all .4s ease-in-out;
 }
 
 .flex-container div img{
@@ -196,7 +198,7 @@ footer{
     top: 15%;
     right: 0;
     background-color: #c52026;
-    transition: .5s;
+    transition: .4s;
     padding-top: 30px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px; 
@@ -218,14 +220,15 @@ footer{
 
 #sideBarContainer{
     position: fixed;
-    right:-95px;
+    right:-85px;
     top: 20%;
     opacity: 0.5;
+    transition-duration: .8s;
+    z-index: 1;
 }
 
 #sideBarContainer:hover{
-    right:-80px;
-    animation: fadein 0.6s;
+    transition: all .4s ease-in-out;
     opacity: 1;
     cursor: pointer;
 }
@@ -246,11 +249,16 @@ footer{
     cursor: pointer;
 }
 
+#mySideBar{
+    height:59%;
+    top:20%;
+}
+
 /*NewsPage content style*/
 .newsPageImage{
     display: flex;
     flex-wrap: wrap;
-    width:1200px;
+    width:89%;/*MIGHT NEED TO CHANGE*/
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 100px;
@@ -295,6 +303,24 @@ footer{
   50% {
     transform: scale(1.1);
   }
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 620px){
+    .headerImage{
+        transform: scale(0.65);
+        
+    }
+    
+}
+
+@media only screen and (max-width: 1280px){
+    .newsPageImage{
+        width:82%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
 }
 
 
