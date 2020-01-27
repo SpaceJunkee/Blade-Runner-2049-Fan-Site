@@ -194,7 +194,7 @@ footer{
 
 /*Side bar styling*/
 .sideBar {
-    height: 70%;
+    height: 80%;
     width: 0;
     position: fixed;
     top: 15%;
@@ -252,7 +252,7 @@ footer{
 }
 
 #mySideBar{
-    height:59%;
+    height:67%;
     top:20%;
 }
 
@@ -264,7 +264,7 @@ footer{
 .newsPageImage{
     display: flex;
     flex-wrap: wrap;
-    width:89%;/*MIGHT NEED TO CHANGE*/
+    width:87%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 100px;
@@ -297,6 +297,19 @@ footer{
     font-weight:normal;
 }
 
+/*Joi page content styles*/
+.purchaseJoi{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.purchaseJoi button{
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #f1f1f1;
+    border-color: #191919;
+}
 
 /*Animations*/
 @keyframes fadein {
@@ -326,6 +339,12 @@ footer{
         margin-left: 10%;
         margin-right: 10%;
     }
+    
+    #mySideBar{
+    height:59%;
+    top:20%;
+}
+
     
 }
 
