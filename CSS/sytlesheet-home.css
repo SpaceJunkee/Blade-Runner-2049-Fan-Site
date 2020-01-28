@@ -23,6 +23,7 @@ body::-webkit-scrollbar{
     position: sticky;
     top:0;
     z-index: 1;
+    width: 100%;
 }
 
 .homeNavBar ul{  
@@ -67,7 +68,7 @@ body::-webkit-scrollbar{
 #wallaceHome a:hover{
     background: transparent;
     animation: hvr-icon-pop .3s;
-    filter: invert(1);
+    filter: hue-rotate(255deg);
      
 }
 
@@ -81,7 +82,7 @@ body::-webkit-scrollbar{
 #arrowDown:hover{
     transform: scale(1.15);
     cursor: pointer;
-    filter: invert(1);
+    filter: hue-rotate(255deg);
 }
 
 #arrowDown:active{
@@ -307,9 +308,17 @@ footer{
 .purchaseJoi button{
     padding: 10px;
     border-radius: 100px;
-    background-color: #f1f1f1;
+    background-color: #f637df;
     border-color: #191919;
+    color:#191919;
+    transition: all .3s ease-in;
 }
+
+.purchaseJoi button:hover{
+    background-color: #6CD4FF;
+    color:black;
+}
+
 
 .joiNavBar{
     position: sticky;
@@ -334,7 +343,7 @@ footer{
 
 .joiNavBar li a{
     display: block;
-    color: hotpink;
+    color: #f637df;
     text-align: center;
     padding: 15px 16px 15px 16px;
     text-decoration: none;
@@ -342,7 +351,58 @@ footer{
 
 
 .joiNavBar li a:hover{
-    color: deepskyblue;
+    color: #6CD4FF;
+}
+
+.sideBarJoi {
+    height: 80%;
+    width: 0;
+    position: fixed;
+    top: 15%;
+    right: 0;
+    background-color: #f637df;
+    transition: .4s;
+    padding-top: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
+}
+
+.sideBarJoi a {
+    padding: 8px 8px 8px 8px;
+    font-size: 30px;
+    color: #191919;
+    display: block;
+    transition: 0.3s;   
+    text-align: center;
+}
+
+.sideBarJoi a:hover {
+    color: #f1f1f1;
+}
+
+#sideBarContainerJoi{
+    position: fixed;
+    right:-85px;
+    top: 20%;
+    opacity: 0.5;
+    transition-duration: .8s;
+    z-index: 1;
+}
+
+#sideBarContainerJoi:hover{
+    transition: all .4s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+#joiHeaderImage{
+    transition: all 1.5s ease;
+}
+
+#joiHeaderImage:hover{
+    filter: saturate(1.5);
+    filter: contrast(130%);
 }
 
 

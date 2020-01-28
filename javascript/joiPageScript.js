@@ -34,16 +34,21 @@ function modalFade(event){
 //SideBar Functionality
 
 var closeButton = document.getElementById("closeButton");
-var sideBar = document.getElementById("sideBarContainer");
+var sideBar = document.getElementById("sideBarContainerJoi");
 
 closeButton.addEventListener("click", closeSideBar);
 
 sideBar.addEventListener("click", openSideBar);
 
 function openSideBar() {
-  document.getElementById("mySideBar").style.width = "80px";
+    sideBar.style.visibility = "hidden";
+    document.getElementById("mySideBar").style.width = "80px";
+    
 }
 
 function closeSideBar() {
-  document.getElementById("mySideBar").style.width = "0";
+    document.getElementById("mySideBar").style.width = "0";
+    sideBar.style.visibility = "visible";
+    
 }
+
