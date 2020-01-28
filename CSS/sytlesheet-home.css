@@ -311,6 +311,41 @@ footer{
     border-color: #191919;
 }
 
+.joiNavBar{
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.joiNavBar ul{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191919;
+    border-bottom: 1.5px solid grey;
+    margin-left: 2%;
+    margin-right: 2%;
+   
+}
+
+
+.joiNavBar li a{
+    display: block;
+    color: hotpink;
+    text-align: center;
+    padding: 15px 16px 15px 16px;
+    text-decoration: none;
+}
+
+
+.joiNavBar li a:hover{
+    color: deepskyblue;
+}
+
+
 /*Animations*/
 @keyframes fadein {
     from { opacity: 0; }
