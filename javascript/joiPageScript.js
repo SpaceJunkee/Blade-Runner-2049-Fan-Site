@@ -31,7 +31,7 @@ function modalFade(event){
     }
 }*/
 
-//SideBar Functionality
+//SideBar Functionality specific to joipage
 
 var closeButton = document.getElementById("closeButton");
 var sideBar = document.getElementById("sideBarContainerJoi");
@@ -51,4 +51,5 @@ function closeSideBar() {
     sideBar.style.visibility = "visible";
     
 }
+
 

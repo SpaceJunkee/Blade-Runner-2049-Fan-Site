@@ -258,7 +258,7 @@ footer{
 }
 
 /*NewsPage content style*/
-
+/*---------------------------------------------------*/
 .newsPageHeader h1{
     margin-bottom: 50px;
 }
@@ -299,6 +299,7 @@ footer{
 }
 
 /*Joi page content styles*/
+/*---------------------------------------------------*/
 .purchaseJoi{
     display: flex;
     justify-content: center;
@@ -398,11 +399,88 @@ footer{
 
 #joiHeaderImage{
     transition: all 1.5s ease;
+    z-index: -1;
 }
 
 #joiHeaderImage:hover{
-    filter: saturate(1.5);
-    filter: contrast(130%);
+    filter: contrast(140%);
+}
+
+/*Replicant test content styling*/
+/*---------------------------------------------------*/
+#replicantFlexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    margin-bottom: 2% ;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+#replicantFlexContainer button{
+    padding:10px;
+    border-color: #191919;
+    background-color: #191919;
+    
+    transition: all .2s ease-in-out;
+}
+
+#replicantFlexContainer button:hover{
+    border-color: #c52026;
+    transform: scale(1.1);
+
+}
+
+#questionPara{
+    margin-top: 100px;
+}
+
+
+#submit{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    margin-bottom: 15% ;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+#submit button{
+    padding:10px;
+    border-color: #191919;
+    background-color: #191919;
+    transition: all .2s ease-in-out;
+}
+
+#submit button:hover{
+    border-color: #c52026;
+    transform: scale(1.1);
+}
+
+
+.questionContainer{
+    width:50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.hide{
+    opacity: 0;   
+}
+
+.hideAnim{
+    opacity: 0;
+    animation: fadeout .4s;
+}
+
+.show{
+    opacity: 1;
+    animation: fadein 1.5s;
 }
 
 
@@ -410,6 +488,11 @@ footer{
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
 }
 
 
