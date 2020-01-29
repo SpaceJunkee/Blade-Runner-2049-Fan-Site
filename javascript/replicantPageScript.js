@@ -21,8 +21,7 @@ function beginTest(event){
     $("#replicantFlexContainer").removeClass("show");
     $("#replicantFlexContainer").addClass("hideAnim");
     
-    $("#submit").removeClass("hide");
-    $("#submit").addClass("show");
+    
     $(".questionContainer").removeClass("hide");
     $(".questionContainer").addClass("show");
     

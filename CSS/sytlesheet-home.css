@@ -68,7 +68,7 @@ body::-webkit-scrollbar{
 #wallaceHome a:hover{
     background: transparent;
     animation: hvr-icon-pop .3s;
-    filter: hue-rotate(255deg);
+    filter: brightness(800%);
      
 }
 
@@ -82,7 +82,7 @@ body::-webkit-scrollbar{
 #arrowDown:hover{
     transform: scale(1.15);
     cursor: pointer;
-    filter: hue-rotate(255deg);
+    filter: brightness(1000%);
 }
 
 #arrowDown:active{
@@ -313,9 +313,11 @@ footer{
     border-color: #191919;
     color:#191919;
     transition: all .3s ease-in;
+    border-color: #6CD4FF;
 }
 
 .purchaseJoi button:hover{
+    border-color: #f637df;
     background-color: #6CD4FF;
     color:black;
 }
@@ -411,10 +413,6 @@ footer{
 #replicantFlexContainer{
     display: flex;
     flex-wrap: wrap;
-    margin: 5%;
-    margin-bottom: 2% ;
-    margin-left: 20%;
-    margin-right: 20%;
     justify-content: center;
     text-align: center;
 }
@@ -435,6 +433,32 @@ footer{
 
 #questionPara{
     margin-top: 100px;
+}
+
+#correctAnswer p{
+    color: grey;
+    transition: all .2s ease-in-out;
+}
+
+#correctAnswer p:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+#secondChoice{
+    visibility: hidden;
+}
+
+#secondChoice{
+    color: grey;
+    transition: all .2s ease-in-out;
+}
+
+#secondChoice:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #f1f1f1;
 }
 
 
