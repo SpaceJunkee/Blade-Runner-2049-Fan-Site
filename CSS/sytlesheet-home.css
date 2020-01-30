@@ -314,6 +314,7 @@ footer{
     color:#191919;
     transition: all .3s ease-in;
     border-color: #6CD4FF;
+    cursor: pointer;
 }
 
 .purchaseJoi button:hover{
@@ -421,7 +422,7 @@ footer{
     padding:10px;
     border-color: #191919;
     background-color: #191919;
-    
+    cursor: pointer;
     transition: all .2s ease-in-out;
 }
 
@@ -435,27 +436,27 @@ footer{
     margin-top: 100px;
 }
 
-#correctAnswer p{
+#correctAnswer{
     color: grey;
     transition: all .2s ease-in-out;
 }
 
-#correctAnswer p:hover{
+#correctAnswer:hover{
     transform: scale(1.1);
     cursor: pointer;
     color: #f1f1f1;
 }
 
-#secondChoice{
+#wrongAnswer{
     visibility: hidden;
 }
 
-#secondChoice{
+#wrongAnswer{
     color: grey;
     transition: all .2s ease-in-out;
 }
 
-#secondChoice:hover{
+#wrongAnswer:hover{
     transform: scale(1.1);
     cursor: pointer;
     color: #f1f1f1;
@@ -478,6 +479,7 @@ footer{
     border-color: #191919;
     background-color: #191919;
     transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 
 #submit button:hover{

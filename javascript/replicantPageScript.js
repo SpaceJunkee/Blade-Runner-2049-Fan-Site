@@ -10,19 +10,3 @@ function jumpToPosition(){
 }
 
 
-//Begin questions 
-var beginTestButton = document.getElementById("testButton");
-    
-beginTestButton.addEventListener("click", beginTest);
-beginTestButton.addEventListener("click", jumpToPosition);
-
-function beginTest(event){
-    
-    $("#replicantFlexContainer").removeClass("show");
-    $("#replicantFlexContainer").addClass("hideAnim");
-    
-    
-    $(".questionContainer").removeClass("hide");
-    $(".questionContainer").addClass("show");
-    
-}
