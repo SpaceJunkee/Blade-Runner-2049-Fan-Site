@@ -70,7 +70,9 @@ function changeQuestion(){
     }
     
     if(arrayCountInner === 7){
-        wrongAnswer.style.visibility = "hidden";                 
+        wrongAnswer.style.visibility = "hidden";   
+        correctAnswer.firstChild.nodeValue = "Forsaken";
+        
     }
     
     if(arrayCountInner === 10){
