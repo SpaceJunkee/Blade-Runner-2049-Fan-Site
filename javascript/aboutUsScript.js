@@ -2,7 +2,7 @@ var arrowJump = document.getElementById("arrowDown");
 
 arrowJump.addEventListener('click', jumpToPosition);
 
-var middlePageJump = document.getElementById("middlePageJump");
+var middlePageJump = document.getElementById("aboutPageFooter");
 
 //Jump to position on page
 function jumpToPosition(){
@@ -13,7 +13,7 @@ function jumpToPosition(){
 
 
 var i = 0;
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var speed = 20; /* The speed/duration of the effect in milliseconds */
 var aboutArticle =  document.getElementById("aboutArticle");
 
 
