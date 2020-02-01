@@ -508,7 +508,7 @@ em{
 #aboutArticleContainer{
     display: flex;
     justify-content: flex-start;
-    margin-top: 18%;
+    margin-top: 14%;
     margin-bottom: 30%;
     margin-left: 25%;
     margin-right: 25%;
@@ -550,7 +550,6 @@ em{
 
 #homePageFooter a{
     color: grey;
-    text-decoration: none;
     font-size: 13px;
 }
 
@@ -602,7 +601,6 @@ em{
 
 #replicantTestFooter a{
     color: grey;
-    text-decoration: none;
     font-size: 13px;
 }
 
@@ -654,7 +652,6 @@ em{
 
 #aboutPageFooter a{
     color: grey;
-    text-decoration: none;
     font-size: 13px;
 }
 
