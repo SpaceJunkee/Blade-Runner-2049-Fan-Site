@@ -10,26 +10,6 @@ function jumpToPosition(){
 }
 
 
-/*
-//fade in modal depending on which image is clicked
-function modalFade(event){
-    if(event.target === flexImages1){
-        $('#fadeDelay1').modal({
-        fadeDuration: 250,
-        fadeDelay: 0.80
-        });
-    }else if(event.target === flexImages2){
-        $('#fadeDelay2').modal({
-        fadeDuration: 250,
-        fadeDelay: 0.80
-        });
-    }else{
-        $('#fadeDelay3').modal({
-        fadeDuration: 250,
-        fadeDelay: 0.80
-        }); 
-    }
-}*/
 
 //SideBar Functionality specific to joipage
 
@@ -51,5 +31,16 @@ function closeSideBar() {
     sideBar.style.visibility = "visible";
     
 }
+
+var purchase = document.getElementById("purchaseButton");
+
+purchase.addEventListener("click", alertMessage);
+
+function alertMessage(){
+    var message = "Our servers are currently undergoing maintenance after a breach in security at our Los Angeles headquarters. Please be patient and try again later. Thanks."
+    
+    alert(message);
+}
+
 
 
