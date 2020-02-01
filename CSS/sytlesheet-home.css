@@ -500,6 +500,20 @@ em{
     animation: fadein 1.5s;
 }
 
+/*About Page content styling*/
+/*---------------------------------------------------*/
+#aboutArticleContainer{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 18%;
+    margin-bottom: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 2px outset #F1F1F1;
+    border-radius: 1px;
+    padding: 25px;
+}
+
 
 /*Animations*/
 @keyframes fadein {
@@ -550,5 +564,7 @@ em{
     -ms-user-select: none;
     user-select: none;
 }
+
+
 
 
