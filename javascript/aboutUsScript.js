@@ -1,13 +1,13 @@
-/*var arrowJump = document.getElementById("arrowDown");
+var arrowJump = document.getElementById("arrowDown");
 
 arrowJump.addEventListener('click', jumpToPosition);
 
-var middlePageJump = document.getElementById("middlePageImage");
+var middlePageJump = document.getElementById("middlePageJump");
 
 //Jump to position on page
 function jumpToPosition(){
     middlePageJump.scrollIntoView({behavior: "smooth", block: 'center',inline: 'center'});
-}*/
+}
 
 
 
