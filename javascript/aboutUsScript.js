@@ -13,7 +13,7 @@ function jumpToPosition(){
 
 
 var i = 0;
-var speed = 20; /* The speed/duration of the effect in milliseconds */
+var speed = 15; /* The speed/duration of the effect in milliseconds lower is faster */
 var aboutArticle =  document.getElementById("aboutArticle");
 
 
@@ -25,11 +25,11 @@ var txtFirstPara = "This is my fan project for the movie 'Blade Runner 2049'. Th
 
 var txtSecondPara = "I used HTML, CSS & JavaScript to achieve the content, style and functionality of this website. With some help from other online fan sources and movie refrences I was able to piece together an authentic looking page with content that any fan of the movies can relate to.";
 
-var txtThirdPara = "If you would like to check out some of my other work please vist https://github.com/spacejunkee or follow me on LinkedIn at https://www.linkedin.com/in/kevin-sandy-687ba519b/ or just use the cool side bar to the right. --->";
+var txtThirdPara = "If you would like to check out some of my other work please vist https://github.com/spacejunkee or follow me on LinkedIn at https://www.linkedin.com/in/kevin-sandy-687ba519b/ or just use the cool side bar to the right.";
 
 var txtFinalPara = "And with that I will leave you with the greatest quote in sci-fi movie history";
 
-var txtQuote = "'I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain.'"
+var txtQuote = "'I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhauser Gate. All those moments will be lost in time, like tears in rain.'"
 
 function typeWriter() {
   if (i < txtIntro.length) {
