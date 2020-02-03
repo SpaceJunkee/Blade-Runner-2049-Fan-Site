@@ -1,4 +1,4 @@
-var arrowJump = document.getElementById("arrow");
+var arrowJump = document.getElementById("arrowDown");
 var flexImages1 = document.getElementById("flexImages1");
 var flexImages2 = document.getElementById("flexImages2");
 var flexImages3 = document.getElementById("flexImages3");
@@ -33,23 +33,3 @@ function modalFade(event){
         }); 
     }
 }
-
-//SideBar Functionality
-
-var closeButton = document.getElementById("closeButton");
-var sideBar = document.getElementById("sideBarContainer");
-
-closeButton.addEventListener("click", closeSideBar);
-
-sideBar.addEventListener("click", openSideBar);
-
-function openSideBar() {
-  document.getElementById("mySideBar").style.width = "80px";
-}
-
-function closeSideBar() {
-  document.getElementById("mySideBar").style.width = "0";
-}
-
-
-
