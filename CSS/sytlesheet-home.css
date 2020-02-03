@@ -311,7 +311,7 @@ em{
 .purchaseJoi{
     display: flex;
     justify-content: center;
-    margin-bottom: 10%;
+    margin-bottom: 30%;
 }
 
 .purchaseJoi button{
@@ -673,8 +673,107 @@ em{
     font-size: 13px;
 }
 
+/*Joi Page Footer*/
+#joiPageFooter {
+    
+    background-image: url(../images/footerImage4.jpg);
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    position:relative; 
+    display:block; 
+    height:650px;
+    
+    text-align: center;
+    
+}
+
+#joiPageFooter::before {
+    display:block;
+    width:100%;
+    height:100%;
+    background: rgb(25,25,25);
+    background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(25,25,25,0.85) 75%, rgba(25,25,25,0) 100%);
+    position:absolute;
+    z-index: 0;
+    content: "";
+
+}
 
 
+#joiPageFooter a{
+    color: grey;
+    font-size: 13px;
+}
+
+#joiPageFooter a:hover{
+    color: #f1f1f1;
+}
+
+#joiPageFooter div{
+   
+    z-index: 1;
+    display:block;
+    position:absolute;
+    bottom: 5%;
+    width:100%;
+    
+}
+
+#joiPageFooter p{
+    font-size: 13px;
+}
+
+/*News Page Footer*/
+#newsPageFooter {
+    
+    background-image: url(../images/footerImage5.jpg);
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    position:relative; 
+    display:block; 
+    height:650px;
+    
+    text-align: center;
+    
+}
+
+#newsPageFooter::before {
+    display:block;
+    width:100%;
+    height:100%;
+    background: rgb(25,25,25);
+    background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(25,25,25,0.85) 75%, rgba(25,25,25,0) 100%);
+    position:absolute;
+    z-index: 0;
+    content: "";
+
+}
+
+
+#newsPageFooter a{
+    color: grey;
+    font-size: 13px;
+}
+
+#newsPageFooter a:hover{
+    color: #f1f1f1;
+}
+
+#newsPageFooter div{
+   
+    z-index: 1;
+    display:block;
+    position:absolute;
+    bottom: 5%;
+    width:100%;
+    
+}
+
+#newsPageFooter p{
+    font-size: 13px;
+}
 /*Animations*/
 @keyframes fadein {
     from { opacity: 0; }
@@ -720,7 +819,68 @@ em{
     #mySideBar{
     height:59%;
     top:20%;
-}
+        
+    }
+    
+    #newsPageFooter::before {
+    display:block;
+    width:100%;
+    height:100%;
+    background: rgb(25,25,25);
+    background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(25,25,25,0.85) 75%, rgba(25,25,25,0) 110%);
+    position:absolute;
+    z-index: 0;
+    content: "";
+
+    }
+    
+    #homePageFooter::before {
+    display:block;
+    width:100%;
+    height:100%;
+    background: rgb(25,25,25);
+    background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(25,25,25,0.75) 65%, rgba(25,25,25,0) 110%);
+    position:absolute;
+    z-index: 0;
+    content: "";
+
+    }
+    
+    #joiPageFooter::before {
+    display:block;
+    width:100%;
+    height:100%;
+    background: rgb(25,25,25);
+    background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(25,25,25,0.75) 65%, rgba(25,25,25,0) 110%);
+    position:absolute;
+    z-index: 0;
+    content: "";
+
+    }
+    
+    #aboutPageFooter::before {
+    display:block;
+    width:100%;
+    height:100%;
+    background: rgb(25,25,25);
+    background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(25,25,25,0.85) 75%, rgba(25,25,25,0) 110%);
+    position:absolute;
+    z-index: 0;
+    content: "";
+
+    }
+    
+    #replicantTestFooter::before {
+    display:block;
+    width:100%;
+    height:100%;
+    background: rgb(25,25,25);
+    background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(25,25,25,0.85) 75%, rgba(25,25,25,0) 110%);
+    position:absolute;
+    z-index: 0;
+    content: "";
+
+    }
     
 }
 
