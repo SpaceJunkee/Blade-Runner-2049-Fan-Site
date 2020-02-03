@@ -709,6 +709,14 @@ em{
         margin-right: 10%;
     }
     
+    .newsPageImage p{
+        font-size:14px;
+    }
+    
+    .newsPageImage img{
+        width: 530px;
+    }
+    
     #mySideBar{
     height:59%;
     top:20%;
