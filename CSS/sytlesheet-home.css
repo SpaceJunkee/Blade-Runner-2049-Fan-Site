@@ -774,6 +774,14 @@ em{
 #newsPageFooter p{
     font-size: 13px;
 }
+
+/*news articles styles*/
+h1{
+    font-size: 3em;
+    color: #f1f1f1;
+    padding:10px;
+}
+
 /*Animations*/
 @keyframes fadein {
     from { opacity: 0; }
