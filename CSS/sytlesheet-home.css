@@ -940,6 +940,20 @@ em{
 
     }
     
+    #aboutArticleContainer{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 18%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px outset #F1F1F1;
+    border-radius: 1px;
+    padding: 25px;
+    width: 768px;
+    height: 530px;
+}
+    
 }
 
 /*Make certain text unselectable*/
