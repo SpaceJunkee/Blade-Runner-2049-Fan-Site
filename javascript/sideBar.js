@@ -9,12 +9,12 @@ sideBar.addEventListener("click", openSideBar);
 
 function openSideBar() {
     sideBar.style.visibility = "hidden";
-    document.getElementById("mySideBar").style.width = "80px";
+    document.getElementById("mySideBar").style.width = "5%";
     
 }
 
 function closeSideBar() {
-    document.getElementById("mySideBar").style.width = "0";
+    document.getElementById("mySideBar").style.width = "0%";
     sideBar.style.visibility = "visible";
     
 }

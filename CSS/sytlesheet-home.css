@@ -244,7 +244,6 @@ footer{
      top: 3px;
 }
 
-
 .sideBarIcon:hover{
     transform: scale(1.2);
     padding: 0;
@@ -255,8 +254,8 @@ footer{
 }
 
 #mySideBar{
-    height:70%;
-    top:20%;
+    height:60%;
+    top:18%;
     z-index: 1;
 }
 
@@ -514,8 +513,8 @@ em{
     justify-content: flex-start;
     margin-top: 14%;
     margin-bottom: 20%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 29%;
+    margin-right: 29%;
     border: 2px outset #F1F1F1;
     border-radius: 1px;
     padding: 25px;
